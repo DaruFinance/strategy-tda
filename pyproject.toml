@@ -1,0 +1,20 @@
+[project]
+name = "strategy-tda"
+version = "0.1.0"
+description = "Persistent homology of strategy space"
+authors = [{ name = "Daniel Vieira Gatto" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scipy>=1.11",
+  "matplotlib>=3.8",
+  # gudhi is optional — the script falls back to a pure-Python VR-like
+  # bottleneck computation if gudhi is unavailable.
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
