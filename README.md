@@ -2,6 +2,8 @@
 
 **Persistent homology of strategy space.**
 
+> The code for [Persistence barcodes on strategy correlation structure](https://www.daru.finance/projects/strategy-tda). Written up by Daniel Gatto at [daru.finance](https://www.daru.finance).
+
 Topological data analysis on large populations of algorithmic trading
 strategies, using a correlation-distance metric and a Vietoris–Rips filtration.
 
